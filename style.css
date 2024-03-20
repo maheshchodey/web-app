@@ -1,0 +1,95 @@
+*{
+                    background-color:;
+                }
+                .backg{
+                    background-color: lightblue;
+            
+                }
+            
+                .btn{
+                    float: right;
+                margin-top:-20px;
+                background-color:floralwhite;
+            
+                }
+            
+                .main1{
+                    background-color:skyblue;
+                    padding-top: 40px;
+            
+                }
+              .text{
+              margin-top: -30px;
+              padding-left:20px;
+              list-style-type: none;
+              }
+              body {
+              font-family: "Lato", sans-serif;
+            }
+            
+            .sidenav {
+              height: 100%;
+              width: 0;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color:#ecf2ee;
+              overflow-x: hidden;
+              transition: 0.5s;
+              padding-top: 60px;
+            }
+            
+            .sidenav a {
+              padding: 8px 8px 8px 32px;
+              text-decoration: none;
+              font-size: 25px;
+              color: black;
+              display: block;
+              transition: 0.3s;
+            }
+            
+            .sidenav a:hover {
+              color:white;
+            }
+            
+            .sidenav .closebtn {
+              position: absolute;
+              top: 0;
+              right: 25px;
+              font-size: 36px;
+              margin-left: 50px;
+            }
+            
+            @media screen and (max-height: 450px) {
+              .sidenav {padding-top: 15px;}
+              .sidenav a {font-size: 10px;}
+            }
+            .main2{
+                background-color:lightsalmon;
+                padding-top:10px;
+                margin-top: -20px;
+            
+            }
+            .buttons{
+               margin-top:-10px ;
+            
+            }
+            .fromto{
+            
+            }
+            .justname{
+                padding-left:180px;
+            }
+            #searchInput{
+                height: 40px;
+                width:200px;
+            }
+            .nosub{
+                padding-left:150px;
+            }
+            .col{
+                border: 1px solid black;
+                border-radius: 15px;
+                margin:10px;
+            }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar with Sign-In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/eda4aee207.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav >
+      <ul  class="main1">
+          <li class="text">time/timesheet </li>
+          <button class="btn">login</button>&nbsp &nbsp
+          <button class="btn"> signin</button>
+
+      </ul>
+  </nav>
+ <div>
+      <ul  class="main2">
+          <button class="buttons">timesheets</button>
+          <button class="buttons"> attendance</button>
+
+      </ul>
+  <div>    
+  
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#"><input type="search" id="searchInput" name="search" placeholder="Search...">
+</a>
+<a href="#"><i class="fa-solid fa-bag-shopping"></i>leave</a>
+<a href="#"><i class="fa-regular fa-clock"></i>time</a>
+<a href="#"><i class="fa-solid fa-magnifying-glass"></i>recruitment</a>
+<a href="#"><i class="fa-solid fa-user"></i>perfomance</a>
+<a href="#"><i class="fa-solid fa-house"></i>dashboard</a>
+<a href="#"><i class="fa-solid fa-book"></i>directort</a>
+<a href="#"><i class="fa-solid fa-indian-rupee-sign"></i>claim</a>
+<a href="#"><i class="fa-brands fa-rocketchat"></i>buzz</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#10097; open</span>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div class="backg">
+
+<div class="container text-center">
+<div class="row">
+  <div class="col-sm-5 col-md-6">My timesheet</div>
+  <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><input type="date" id="fromDate" name="fromDate"> to <input type="date" id="toDate" name="toDate">
+      <input type="submit" name="">
+</div>
+</div>
+
+</div><hr>
+<div class="container text-center">
+<div class="row row-cols-10">
+  <div class="col">project</div>
+  <div class="col">activity</div>
+  <div class="col">18<br>monday</div>
+  <div class="col">19<br>tuesday</div>
+  <div class="col">20<br>wednessday</div>
+  <div class="col">21<br>thurs</div>
+  <div class="col">22<br>fri</div>
+  <div class="col">23<br>sat</div>
+  <div class="col">24<br>sun</div>
+  <div class="col">total</div>
+
+</div>
+</div><hr>
+<div>
+  <p class="justname">NoRecordfound</p>
+</div><hr>
+
+<div>
+  <p class="nosub">status: Not Submited</p>
+
+</div>
+<div>
+   <button class="btn">Edit</button>&nbsp
+          <button class="btn">Submit</button>
+</div>
+
+
+</div>
+</body>
+</html>
